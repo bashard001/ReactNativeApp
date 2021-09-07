@@ -3,7 +3,7 @@ import { FlatList } from 'react-native'
 import { ListItem } from 'react-native-elements'
 
 function Directory (props){
-    const renderDirectoryItem = ({item}) => {
+    const renderDirectoryItem = ({ item }) => {
         return(
             <ListItem
         title={item.name}
