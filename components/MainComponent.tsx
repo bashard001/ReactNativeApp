@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import Directory from "./Directory"
+import Header from './Header'
 import { CAMPSITES } from '../shared/campsites'
+import { View } from "react-native"
 
 
 class Main extends Component{
@@ -12,7 +14,11 @@ class Main extends Component{
     }
 
 render(){
-    return <Directory campsites={this.state.campsites} />
+    return (
+    <View>
+    <Header />
+    <Directory campsites={this.state.campsites} />
+    </View>)
 }
 
 }
