@@ -38,6 +38,7 @@ const styles = StyleSheet.create({
         fontStyle: "italic",
         alignSelf: "flex-start",
         fontSize: 10,
-        marginBottom: 0
+        marginBottom: 0,
+        marginLeft: 5
     }
 })
